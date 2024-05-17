@@ -71,6 +71,10 @@ nav {
   background-color: #2776ff;
   margin: 10px 20px;
   height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 1053px) {
