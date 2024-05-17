@@ -6,4 +6,63 @@
 
 body {
   background-color: rgb(192, 217, 240);
+  font-family: NN Nouvelle Grotesk, sans-serif !important;
+}
+
+.body1 {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  height: 83px;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.opciones {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+  width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opciones .ini {
+  color: #fff;
+  text-decoration: none;
+  padding: 19px;
+  border-radius: 50px;
+}
+
+.opciones p {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.opciones a {
+  text-decoration: none;
+}
+
+.opciones .insc {
+  background-color: rgb(0, 24, 240);
+  color: #fff;
+  text-decoration: none;
+  padding: 19px;
+  border-radius: 50px;
+  font-weight: 800;
 }/*# sourceMappingURL=styles.css.map */
